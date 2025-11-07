@@ -16,9 +16,11 @@ const Header = () => {
             <div className="flex flex-col items-start gap-1 w-full">
               <div className="flex items-baseline gap-[2px]">
                 <span className="text-primary font-extrabold text-xl">
-                  Pramāṇa
+                  Block
                 </span>
-                <span className="text-accent font-semibold text-xl">Patra</span>
+                <span className="text-accent font-semibold text-xl">
+                  Certify
+                </span>
               </div>
               <hr className="w-full border border-base-content" />
               <span className="text-sm text-base-content/70 italic">
@@ -36,7 +38,7 @@ const Header = () => {
               <Link href="/contact">Contact</Link>
             </li>
             <li>
-              <Link href="/services">Services</Link>
+              <Link href="/features">Features</Link>
             </li>
             <li>
               <Link href="/verify">Verify</Link>

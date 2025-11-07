@@ -116,7 +116,11 @@ export async function POST(req: NextRequest) {
         certificateId: recipientData.certificateId,
         mongoId: newCertificate._id,
         name: recipientData.name,
-        date: issuedOn,
+        date: new Date(issuedOn as string).toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        }),
         verificationLink: recipientData.verificationLink,
         email: recipientData.email,
         department: recipientData.department,

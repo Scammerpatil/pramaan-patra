@@ -61,8 +61,8 @@ const SideNav = ({ children }: { children: React.ReactNode }) => {
                 <span className="h-7 w-7 ">
                   <IconCertificate size={28} className="text-base-content" />
                 </span>
-                <span className="text-primary">Pramāṇa</span>
-                <span className="text-secondary">Patra</span>
+                <span className="text-primary">Block</span>
+                <span className="text-secondary">Certify</span>
               </h1>
               <ThemeToggler />
             </div>
@@ -139,8 +139,8 @@ const SideNav = ({ children }: { children: React.ReactNode }) => {
               </span>
               <span className="text-xl font-bold text-base-content">
                 <h1 className="text-xl font-bold">
-                  <span className="text-primary">Pramāṇa</span>
-                  <span className="text-secondary">Patra</span>
+                  <span className="text-primary">Block</span>
+                  <span className="text-secondary">Certify</span>
                 </h1>
               </span>
             </Link>

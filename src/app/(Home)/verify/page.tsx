@@ -71,7 +71,7 @@ const VerifyPage = () => {
             </button>
           </div>
           {certificate && (
-            <div className="mt-8 p-6 border border-base-content/20 rounded-lg">
+            <div className="mt-8 p-6 border border-base-content/20 rounded-lg bg-base-100 shadow-lg">
               <h2 className="text-2xl font-bold">Certificate Details</h2>
               <p className="text-lg font-light">
                 Certificate ID: {certificate.certificateId}

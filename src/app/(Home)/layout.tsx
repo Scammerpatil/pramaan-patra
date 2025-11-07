@@ -12,7 +12,7 @@ const Component = ({
   return (
     <html lang="en" data-theme="forest">
       <head>
-        <title>Pramāṇa-Patra: Blockchain-Powered Certificate Generator</title>
+        <title>Block-Certify: Blockchain-Powered Certificate Generator</title>
         <meta
           name="description"
           content=" Generate, verify, and store certificates securely on the blockchain.

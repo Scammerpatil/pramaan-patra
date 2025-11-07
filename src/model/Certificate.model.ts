@@ -31,7 +31,7 @@ const CertificateSchema = new Schema({
   certificateDetails: {
     title: {
       type: String,
-      required: true, // e.g., "No Objection Certificate", "Completion Certificate"
+      required: true,
     },
     description: {
       type: String, // Additional details like reason for issuance

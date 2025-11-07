@@ -1,57 +1,25 @@
-"use client";
-
-const About = () => {
+export default function AboutPage() {
   return (
-    <div className="px-6 py-12 bg-base-100">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-primary">
-          About TributeConnect
+    <section className="bg-base-300 min-h-[calc(100vh-5.6rem)] flex items-center justify-center px-4">
+      <div className="max-w-4xl w-full mx-auto py-12">
+        <h1 className="text-5xl font-extrabold text-base-content mb-6 text-center">
+          About Us
         </h1>
-        <p className="text-lg text-base-content/70 mt-3">
-          Honoring legacies, cherishing memories, and supporting causes that
-          matter.
+        <p className="text-lg text-base-content leading-relaxed">
+          Welcome to our decentralized certification platform. We specialize in
+          issuing tamper-proof, verifiable digital certificates using blockchain
+          technology. Whether it's academic, legal, or professional
+          verification, we ensure maximum transparency and trust for both
+          issuers and recipients.
+        </p>
+        <p className="mt-4 text-base-content text-lg leading-relaxed">
+          Our goal is to eliminate fraudulent credentials by providing a
+          platform where certificates are permanently recorded and easily
+          validated from anywhere. Backed by modern tech and a user-friendly
+          interface, we serve individuals, institutions, and organizations
+          alike.
         </p>
       </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Image Section */}
-        <img
-          src="/tribute.png"
-          alt="About TributeConnect"
-          className="rounded-lg shadow-lg h-96 object-cover mx-auto"
-        />
-
-        {/* Text Section */}
-        <div>
-          <h2 className="text-2xl font-semibold text-secondary">Our Mission</h2>
-          <p className="text-base-content/70 mt-3">
-            TributeConnect is a platform dedicated to celebrating the lives of
-            loved ones while enabling financial contributions to honor their
-            memory. We provide a meaningful space where families and friends can
-            create heartfelt tributes, share stories, and support causes that
-            their loved ones cared about.
-          </p>
-
-          <h2 className="text-2xl font-semibold text-secondary mt-6">
-            Why Choose TributeConnect?
-          </h2>
-          <ul className="list-disc list-inside text-base-content/70 mt-3 space-y-2">
-            <li>
-              Create personalized tributes with images and heartfelt messages.
-            </li>
-            <li>
-              Secure and easy-to-use donation system to support meaningful
-              causes.
-            </li>
-            <li>Engage with a supportive community that values remembrance.</li>
-            <li>
-              Preserve legacies through stories, photos, and shared memories.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    </section>
   );
-};
-
-export default About;
+}
